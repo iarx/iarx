@@ -1,4 +1,4 @@
-body, h1,h2,h3,quote,small,form,input,ul,li,ol,label{
+body, h1,h3,quote,small,form,input,ul,li,ol,label{
 	/* Page reset */
 	margin:0px;
 	padding:0px;
@@ -92,7 +92,7 @@ h2{
 	font-size:30px;
 	font-weight:normal;
 	margin-bottom:15px;
-	text-align: left;
+	text-align: center;
 }
 
 #main{

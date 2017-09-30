@@ -82,3 +82,6 @@ dl{
    a { 
     text-decoration: none; /* Отменяем подчеркивание у ссылки */
    } 
+   h2 p {
+    text-align: center;
+}
