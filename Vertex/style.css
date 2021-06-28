@@ -1,7 +1,12 @@
-﻿body {
+﻿html {
+  height: 100%;
+   }
+   
+body {
   margin: 0; /* Убираем отступы на странице */
   font: 0.9em/1.2 Arial, Helvetica, sans-serif;
   background: url(backgr.png); /* Цвет фона */
+  height: 100%;
 }
 
 
@@ -16,11 +21,12 @@
 
 
 .conteiner {
-    top: 0px;
-    width: 980px;
-    position: static;
-	margin: auto;
-}
+	position: relative;
+	min-height: 100%;
+    min-height: calc(100vh - 40px);
+    margin: auto;
+	width: 980px;
+  }
 
 header, section, footer, aside, nav, article {
   display: block; /* Блочный элемент */
@@ -33,12 +39,10 @@ header{
 }
 
 footer{
-	
+	margin: auto;
+	width: 980px;
 	text-align: center;
-	margin-top: 10px;
-	margin-bottom: 10px;
-	
-}
+	}
 
 .description{
 
@@ -67,8 +71,6 @@ dl{
     
    }
    figcaption{
-	   
-	
     margin: 5 auto 5px; /* Отступы вокруг абзаца */
 	text-align: center;
    }
